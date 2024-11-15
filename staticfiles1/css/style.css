@@ -1,0 +1,25 @@
+/* static/css/style.css */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.hero-section {
+    background-color: #000;
+    background-blend-mode: multiply;
+    color: white;
+    height: 100vh;
+}
+
+.hero-section h1 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #222;
+    color: #fff;
+}
+
+.footer a {
+    color: #fff;
+}

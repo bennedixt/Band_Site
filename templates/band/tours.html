@@ -1,0 +1,13 @@
+<!-- band_app/templates/band_app/tours.html -->
+<h2>Upcoming Tour Dates</h2>
+<ul>
+    {% for tour in tours %}
+        <li>{{ tour.date }} - {{ tour.location }}
+            {% if tour.ticket_link %}
+                <a href="{{ tour.ticket_link }}" target="_blank">Get Tickets</a>
+            {% endif %}
+        </li>
+    {% empty %}
+        <p>No upcoming tours scheduled.</p>
+    {% endfor %}
+</ul>
