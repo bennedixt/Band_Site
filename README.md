@@ -1,14 +1,18 @@
 # Band_site
 
-## Setup with Virtual Environment
-1. Create a virtual environment: `python -m venv venv`
-2. Activate it (macOS): `source venv/bin/activate`
-3. Install dependencies: `pip install -r requirements.txt`
-4. Run the application: `python manage.py runserver`
+## Overview
+Band_site is a Django-based project that serves as the official website for a fictional music band, **Hot Fenix**. The website allows fans to view tour dates, band news, and access exclusive content.
 
-## Setup with Docker
-1. Build Docker image: `docker build -t band_site .`
-2. Run the container: `docker run -p 8000:8000 band_site`
+## Features
+- **World Tour Blog**: Display of upcoming tour dates and destinations.
+- **User Authentication**: Registered users can log in to access exclusive content.
+- **Award Announcements**: Highlights the band's Grammy achievements.
+- **Dockerized Deployment**: Run the application in any environment with ease.
 
-## Environment Variables
-Add any environment variables (like secret keys) manually to a `.env` file, and update `.gitignore` to exclude this file.
+## Installation
+
+### Virtual Environment Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/Band_site.git
+   cd Band_site
