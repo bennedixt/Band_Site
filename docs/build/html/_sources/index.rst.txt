@@ -1,16 +1,21 @@
-.. Band_site documentation master file, created by
-   sphinx-quickstart on Fri Nov 15 05:44:43 2024.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Band_site
+=========
 
-Band_site documentation
-=======================
+Welcome to the documentation for Band_site, a Django-based web application for showcasing a fictional band's website. 
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+Features:
+---------
+- Display upcoming tour dates and Grammy awards news.
+- User authentication for exclusive content.
+- Dockerized for quick deployment.
 
+Getting Started:
+----------------
+1. Clone the repository.
+2. Follow the setup instructions in the README.md to build and run the application using a virtual environment or Docker.
 
+Modules:
+--------
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
