@@ -20,3 +20,4 @@ Modules:
    :maxdepth: 2
    :caption: Contents:
 
+   band
