@@ -10,4 +10,3 @@ urlpatterns = [
     path('auth/', include('user_authentication.urls')),
     
 ]
-from django.urls import include, path

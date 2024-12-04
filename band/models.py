@@ -1,4 +1,8 @@
 from django.db import models
+from blog.models import Tour
+import datetime
+
+
 
 class BandMember(models.Model):
     """
@@ -74,12 +78,11 @@ class Band(models.Model):
     genre = models.CharField(max_length=50)
     website = models.URLField(blank=True)
 
-from django.db import models
+# band/models.py
 
 class Tour(models.Model):
     name = models.CharField(max_length=100)
-    location = models.CharField(max_length=100)
-    date = models.DateField()
+    start_date = models.DateField(default=datetime.date.today)
+    end_date = models.DateField(default=datetime.date.today)
+    location = models.CharField(max_length=200)
 
-    def __str__(self):
-        return f"{self.name} - {self.location} on {self.date}"

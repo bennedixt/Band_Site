@@ -21,8 +21,9 @@ exclude_patterns = []
 
 # -- Django configuration ----------------------------------------------------
 
-sys.path.insert(0, os.path.abspath('/Users/bennedixt/GetStarted/band_site'))
-
+# Dynamically set the project root path
+project_root = os.path.abspath('..')  # Assumes Sphinx's conf.py is in the docs/ folder
+sys.path.insert(0, project_root)
 
 # Set up Django settings for Sphinx
 os.environ['DJANGO_SETTINGS_MODULE'] = 'band_site.settings'  # Ensure the project name matches exactly
