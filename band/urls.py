@@ -1,6 +1,3 @@
-from django.urls import include, path
-
-
 from django.urls import path, include
 from . import views
 
@@ -25,5 +22,3 @@ urlpatterns = [
     path('auth/', include('user_authentication.urls')),  # Custom authentication system
 ]
 
-
-print()

@@ -7,4 +7,3 @@ admin.site.register(Album)
 admin.site.register(Concert)
 
 
-print()

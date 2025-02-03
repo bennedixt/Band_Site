@@ -3,8 +3,10 @@ from .models import BandMember, Album, Concert
 from django.shortcuts import render, redirect
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.decorators import login_required
+from blog.models import Tour
+from django.apps import apps
 from .models import Tour
-from .models import Tour
+
 
 def home(request):
     """
@@ -99,9 +101,5 @@ def tour_dates(request):
     return render(request, 'band_app/tours.html', {'tours': tours})
 
 
-from django.apps import apps
-
 Tour = apps.get_model('band', 'Tour')
 
-
-print()

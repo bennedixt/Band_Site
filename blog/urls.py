@@ -14,5 +14,3 @@ urlpatterns = [
     path('grammys/', views.grammys, name='grammys'),  # Grammys page
 ]
 
-
-print()

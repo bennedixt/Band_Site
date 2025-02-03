@@ -7,6 +7,4 @@ class BandConfig(AppConfig):
     This configuration is used to register the app with Django and manage its settings.
     """
     name = 'band'
-    
 
-print()

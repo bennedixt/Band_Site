@@ -29,4 +29,3 @@ def grammys(request):
     return render(request, 'blog/grammys.html')
 
 
-print()

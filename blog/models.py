@@ -45,6 +45,3 @@ class Grammy(models.Model):
         """
         return f"{self.award_year} - {self.category}"
 
-
-print()
-
