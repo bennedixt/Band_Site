@@ -1,6 +1,12 @@
 from django.apps import AppConfig
 
-
 class BandConfig(AppConfig):
-    default_auto_field = "django.db.models.BigAutoField"
-    name = "band"
+    """
+    Django AppConfig for the 'band' application.
+
+    This configuration is used to register the app with Django and manage its settings.
+    """
+    name = 'band'
+    
+
+print()

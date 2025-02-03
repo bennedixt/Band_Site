@@ -103,3 +103,5 @@ from django.apps import apps
 
 Tour = apps.get_model('band', 'Tour')
 
+
+print()
