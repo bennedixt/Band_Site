@@ -85,3 +85,25 @@ The project includes auto-generated documentation using Sphinx. To view the docu
   ## Licence 
 
   This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
+  ### Virtual Environment Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/Band_site.git
+   cd Band_site
+
+
+2. Create a virtual environment:
+   ```bash
+   For MacOS/Linux: python3 -m venv venv
+
+   For Windows: python -m venv venv
+
+
+
+
+
+
+
