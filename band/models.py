@@ -95,5 +95,3 @@ class Tour(models.Model):
     end_date = models.DateField(default=datetime.date.today)
     location = models.CharField(max_length=200)
 
-
-print()
