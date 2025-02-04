@@ -8,5 +8,3 @@ class BandConfig(AppConfig):
     """
     name = 'band'
 
-
-print()
