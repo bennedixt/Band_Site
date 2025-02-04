@@ -22,5 +22,3 @@ urlpatterns = [
     path('auth/', include('user_authentication.urls')),  # Custom authentication system
 ]
 
-
-print()
