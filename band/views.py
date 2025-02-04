@@ -103,5 +103,3 @@ def tour_dates(request):
 
 Tour = apps.get_model('band', 'Tour')
 
-
-print()
