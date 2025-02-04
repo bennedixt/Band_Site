@@ -16,5 +16,3 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "band_site.settings")
 
 application = get_asgi_application()
 
-
-print()
