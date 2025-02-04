@@ -64,7 +64,6 @@ To run the project in Docker, follow these steps:
   ##  Running Tests
 
   To run the project's tests, use the following command:
-    ```bash
     
      python manage.py test
 
