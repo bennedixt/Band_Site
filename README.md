@@ -28,7 +28,7 @@ Band_site is a Django-based project that serves as the official website for a fi
 3. Activate the virtual environment:
    ```bash
    For MacOS/Linux: source venv/bin/activate
-   For Windows: python -m venv venv
+   For Windows: venv\Scripts\activate
 
 
 5. Install dependencies:
@@ -82,12 +82,22 @@ The project includes auto-generated documentation using Sphinx. To view the docu
    make html
 
 
-3. Open the documentation in your browser by navigating to docs/_build/ html/index.html.
+3. Open the documentation in your browser by navigating to docs/_build/html/index.html.
   
 
   ## Licence 
 
   This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
+ 
+
+
+
+
+
+
 
 
 
